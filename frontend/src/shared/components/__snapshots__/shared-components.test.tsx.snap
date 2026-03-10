@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`shared components renders Button and matches snapshot 1`] = `
+<button
+  class="inline-flex items-center justify-center gap-2 border font-semibold transition focus:outline-none focus:ring-2 focus:ring-slate-500/30 disabled:cursor-not-allowed disabled:opacity-60 border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--text-primary)] hover:bg-black/5 text-sm rounded-full px-4 py-2"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="svg-inline--fa fa-plus"
+    data-icon="plus"
+    data-prefix="fas"
+    role="img"
+    viewBox="0 0 448 512"
+  >
+    <path
+      d="M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z"
+      fill="currentColor"
+    />
+  </svg>
+  Create
+</button>
+`;
+
+exports[`shared components renders Button danger circle variant and matches snapshot 1`] = `
+<button
+  class="inline-flex items-center justify-center gap-2 border font-semibold transition focus:outline-none focus:ring-2 focus:ring-slate-500/30 disabled:cursor-not-allowed disabled:opacity-60 border-red-200 bg-red-50 text-red-700 hover:bg-red-100 text-base h-12 w-12 rounded-full p-0"
+  type="button"
+>
+  !
+</button>
+`;
+
+exports[`shared components renders Checkbox checked state and matches snapshot 1`] = `
+<button
+  aria-checked="true"
+  class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-slate-400 bg-[var(--card-bg)] text-sm transition focus:outline-none focus:ring-2 focus:ring-emerald-400/40 disabled:cursor-not-allowed disabled:opacity-60 border-emerald-400 bg-emerald-400"
+  role="checkbox"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="svg-inline--fa fa-check text-slate-950"
+    data-icon="check"
+    data-prefix="fas"
+    role="img"
+    viewBox="0 0 448 512"
+  >
+    <path
+      d="M434.8 70.1c14.3 10.4 17.5 30.4 7.1 44.7l-256 352c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l101.5 101.5 234-321.7c10.4-14.3 30.4-17.5 44.7-7.1z"
+      fill="currentColor"
+    />
+  </svg>
+</button>
+`;
+
+exports[`shared components renders EmptyState and matches snapshot 1`] = `
+<div
+  class="rounded-[24px] border border-dashed border-[var(--card-border)] bg-[var(--card-bg)] px-6 py-12 text-center"
+>
+  <h2
+    class="text-2xl font-semibold text-[var(--text-primary)]"
+  >
+    Empty
+  </h2>
+  <p
+    class="mx-auto mt-3 max-w-xl text-sm text-[var(--text-secondary)] sm:text-base"
+  >
+    No data was found.
+  </p>
+  <div
+    class="mt-6 flex justify-center"
+  >
+    <button
+      class="inline-flex items-center justify-center gap-2 border font-semibold transition focus:outline-none focus:ring-2 focus:ring-slate-500/30 disabled:cursor-not-allowed disabled:opacity-60 border-black bg-black text-white hover:bg-slate-800 text-sm rounded-full px-4 py-2"
+      type="button"
+    >
+      Retry
+    </button>
+  </div>
+</div>
+`;
+
+exports[`shared components renders Icon and matches snapshot 1`] = `
+<svg
+  aria-hidden="true"
+  class="svg-inline--fa fa-plus"
+  data-icon="plus"
+  data-prefix="fas"
+  role="img"
+  viewBox="0 0 448 512"
+>
+  <path
+    d="M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z"
+    fill="currentColor"
+  />
+</svg>
+`;
+
+exports[`shared components renders Input and matches snapshot 1`] = `
+<input
+  class="w-full rounded-2xl border border-[var(--input-border)] bg-[var(--input-bg)] px-4 py-3 text-base text-[var(--text-primary)] outline-none transition placeholder:text-slate-400 focus:border-slate-900 focus:ring-2 focus:ring-slate-300"
+  placeholder="Type here"
+/>
+`;
+
+exports[`shared components renders Modal and closes through the close button 1`] = `
+<div
+  aria-modal="true"
+  class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 px-4 py-6"
+  role="dialog"
+>
+  <div
+    class="w-full max-w-lg rounded-[28px] bg-[var(--card-bg)] p-6 shadow-[0_24px_80px_rgba(0,0,0,0.6)]"
+  >
+    <div
+      class="mb-4 flex items-start justify-between gap-4"
+    >
+      <div>
+        <h2
+          class="text-2xl font-semibold text-[var(--text-primary)]"
+        >
+          Dialog title
+        </h2>
+      </div>
+      <button
+        aria-label="Close dialog"
+        class="inline-flex items-center justify-center gap-2 border font-semibold transition focus:outline-none focus:ring-2 focus:ring-slate-500/30 disabled:cursor-not-allowed disabled:opacity-60 border-transparent bg-transparent text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm h-12 w-12 rounded-full p-0 h-10 w-10"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-xmark"
+          data-icon="xmark"
+          data-prefix="fas"
+          role="img"
+          viewBox="0 0 384 512"
+        >
+          <path
+            d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div>
+      <div>
+        Modal body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`shared components renders PageHeader and matches snapshot 1`] = `
+<div
+  class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"
+>
+  <div
+    class="space-y-2"
+  >
+    <p
+      class="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]"
+    >
+      Overview
+    </p>
+    <div>
+      <h2
+        class="text-2xl font-semibold text-[var(--text-primary)] sm:text-3xl"
+      >
+        Heading
+      </h2>
+      <p
+        class="mt-2 max-w-2xl text-sm text-[var(--text-secondary)] sm:text-base"
+      >
+        Description
+      </p>
+    </div>
+  </div>
+  <div
+    class="flex items-center gap-3"
+  >
+    <button
+      class="inline-flex items-center justify-center gap-2 border font-semibold transition focus:outline-none focus:ring-2 focus:ring-slate-500/30 disabled:cursor-not-allowed disabled:opacity-60 border-black bg-black text-white hover:bg-slate-800 text-sm rounded-full px-4 py-2"
+      type="button"
+    >
+      Action
+    </button>
+  </div>
+</div>
+`;
+
+exports[`shared components renders PanelLayout and matches snapshot 1`] = `
+<main
+  class="min-h-screen bg-[var(--page-bg-accent)] px-4 py-6 sm:px-6 sm:py-10"
+>
+  <section
+    class="mx-auto flex min-h-[calc(100vh-3rem)] w-full max-w-6xl flex-col overflow-hidden rounded-[28px] border border-[var(--panel-border)] bg-[var(--panel-bg)] shadow-[var(--panel-shadow)] backdrop-blur sm:min-h-[42rem]"
+  >
+    <div
+      class="flex-1 px-4 py-5 sm:px-8 sm:py-8"
+    >
+      <div>
+        Content
+      </div>
+    </div>
+  </section>
+</main>
+`;
+
+exports[`shared components renders Spinner and matches snapshot 1`] = `
+<div
+  aria-label="Loading spinner"
+  class="inline-block h-6 w-6 animate-spin rounded-full border-2 border-slate-300 border-t-slate-900"
+  role="status"
+/>
+`;
+
+exports[`shared components renders Textarea and matches snapshot 1`] = `
+<textarea
+  class="w-full rounded-2xl border border-[var(--input-border)] bg-[var(--input-bg)] px-4 py-3 text-base text-[var(--text-primary)] outline-none transition placeholder:text-slate-400 focus:border-slate-900 focus:ring-2 focus:ring-slate-300"
+  placeholder="Details"
+  rows="4"
+/>
+`;
